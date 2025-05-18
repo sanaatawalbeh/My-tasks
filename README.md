@@ -11,7 +11,7 @@
 
 ![About Page Wireframe](./images/Wireframes-whiteboard/About-Page-Wireframe.jpg)
 
-## Q8stions Answe's 
+## Qustions Answe's 
 
 ### What observations or questions do you have about what you've learned so far?
 
@@ -21,5 +21,3 @@ I'm curious to learn more about responsive design and best practices for accessi
 ### How long did it take you to complete this assignment? And how long did you expect it to take?
 
 I expected it to take about 4 hours but it actually take around 12 hours to completed because i initially thought we were required to include a JavaScript code Akso it's been a while since i last practiced coding.
-
-
