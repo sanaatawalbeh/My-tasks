@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>TaskNest Home Page</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <img src="images/new-logo.jpg" alt="Logo" width="55" height="55" />
+      <h1>TaskNest</h1>
+    </div>
+    <nav class="header-right">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="task-input-section">
+      <input type="text" id="taskInput" placeholder="Enter new task..." />
+      <button id="addTaskBtn">Add Task</button>
+    </section>
+
+    <section class="filter-section">
+      <label for="statusFilter">Filter by Status:</label>
+      <select id="statusFilter">
+        <option value="all"> Show All Tasks</option>
+        <option value="Pending">Show Pending Tasks</option>
+        <option value="In Progress">Show In Progress Tasks</option>
+        <option value="Completed">Show Completed Tasks</option>
+      </select>
+    </section>
+
+    <section class="task-list-section">
+      <table class="task-table">
+        <thead>
+          <tr>
+            <th>Task Name</th>
+            <th>Status</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+
+        <tbody id="taskList">
+          <tr>
+            <td>Finish HTML assignment</td>
+            <td>
+              <select class="dropdown-input" >
+                <option selected>Pending</option>
+                <option>In Progress</option>
+                <option>Completed</option>
+              </select>
+            </td>
+            <td><button class="delete-btn" >Delete</button></td>
+          </tr>
+          <tr>
+            <td>Review JavaScript functions</td>
+            <td>
+              <select class="dropdown-input" >
+                <option>Pending</option>
+                <option selected>In Progress</option>
+                <option>Completed</option>
+              </select>
+            </td>
+            <td><button class="delete-btn" >Delete</button></td>
+          </tr>
+          <tr>
+            <td>Push project to GitHub</td>
+            <td>
+              <select class="dropdown-input" >
+                <option>Pending</option>
+                <option>In Progress</option>
+                <option selected>Completed</option>
+              </select>
+            </td>
+            <td><button class="delete-btn" disabled>Delete</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 TaskNest</p>
+    <nav>
+        <a href="about.html">About</a> 
+        <a href="https://www.linkedin.com/in/sanaa-tawalbeh-959911318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
+            <i class="fab fa-linkedin"></i> LinkedIn
+
+        </a> 
+        <a href="https://github.com/sanaatawalbeh" target="_blank">      
+            <i class="fab fa-github"></i> GitHub
+
+        </a>
+      </nav>
+
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
